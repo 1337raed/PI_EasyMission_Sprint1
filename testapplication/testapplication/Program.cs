@@ -1,4 +1,4 @@
-﻿namespace testapplication
+﻿namespace EasyMission.Console
 {
     class Program
     {
