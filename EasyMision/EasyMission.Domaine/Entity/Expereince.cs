@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EasyMission.Domaine
+namespace EasyMission.Domaine.Entity
 {
-    public class Class1
+    public enum Expereince
     {
+        Entry,Mid,senior
+        
     }
 }

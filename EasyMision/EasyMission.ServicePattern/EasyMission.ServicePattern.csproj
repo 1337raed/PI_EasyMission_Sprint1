@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E60CC500-B302-464B-99FC-0DD213218C4E}</ProjectGuid>
+    <ProjectGuid>{9619659A-6B5B-49CD-87B0-EAFC6EDB7FB6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EasyMission.Service</RootNamespace>
-    <AssemblyName>EasyMission.Service</AssemblyName>
+    <RootNamespace>EasyMission.ServicePattern</RootNamespace>
+    <AssemblyName>EasyMission.ServicePattern</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,21 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="IService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EasyMission.Data\EasyMission.Data.csproj">
       <Project>{58401184-eb6c-444f-8077-28627443e33f}</Project>
       <Name>EasyMission.Data</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\EasyMission.Domaine\EasyMission.Domaine.csproj">
-      <Project>{9c75ec90-9096-4b1f-ae31-a18baad22b05}</Project>
-      <Name>EasyMission.Domaine</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\EasyMission.ServicePattern\EasyMission.ServicePattern.csproj">
-      <Project>{9619659a-6b5b-49cd-87b0-eafc6edb7fb6}</Project>
-      <Name>EasyMission.ServicePattern</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

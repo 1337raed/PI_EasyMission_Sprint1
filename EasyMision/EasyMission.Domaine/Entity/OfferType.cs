@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EasyMission.ServicePattern
+namespace EasyMission.Domaine.Entity
 {
-    public class Class1
+    public enum OfferType
     {
+        
     }
 }
