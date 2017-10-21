@@ -18,6 +18,11 @@ namespace EasyMission.Data.Infrastructure
             }
 
         }
+        public UnityOfWork(DataBaseFactory databaseFact)
+        {
+
+            dbf = databaseFact;
+        }
         public void Commit()
         {
             dbf.MyContext.SaveChanges();

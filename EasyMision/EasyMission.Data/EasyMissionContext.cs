@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace EasyMission.Data
 {
-    public class EasyMissionContext
+    public class EasyMissionContext:DbContext
     {
         public EasyMissionContext()
         {
