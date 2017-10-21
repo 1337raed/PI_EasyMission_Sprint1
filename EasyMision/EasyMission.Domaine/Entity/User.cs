@@ -5,17 +5,18 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace EasyMission.Domaine.Entity
 {
     public class User
     {
-        public int UserId { get; set; }
-        [Required]
+        
+       
         public string FristName { get; set; }
-        [Required]
         public string LastName { get; set; }
-        [Required]
+        
         public Sexe Sexe { get; set; }
         [Required]
         public DateTime BirthDate { get; set; }
@@ -43,6 +44,7 @@ namespace EasyMission.Domaine.Entity
         public Boolean IsBanned { get; set; }
         public Boolean IsDeleted { get; set; }
         public Boolean IsActivated { get; set; }
+        public virtual ICollection<Subject> Mysubjects { get; set; }
         public virtual ICollection<Message> Message { get; set; }
 
     }

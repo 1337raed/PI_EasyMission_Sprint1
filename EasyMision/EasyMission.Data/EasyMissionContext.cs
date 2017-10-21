@@ -5,16 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using EasyMission.Domaine.Entity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace EasyMission.Data
 {
-    public class EasyMissionContext:DbContext 
+    public class EasyMissionContext
     {
-        public EasyMissionContext():base("name=DefaultConnection")
+        public EasyMissionContext()
         {
         }
-        public DbSet<User> Users { get; set; }
-        public DbSet<Offer> Offers { get; set; }
-        public DbSet<CurriculumVitae> CurriculumVitaes { get; set; }
     }
 }

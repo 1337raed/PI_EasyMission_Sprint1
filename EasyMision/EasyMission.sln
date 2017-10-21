@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyMission.Service", "Easy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyMission.ServicePattern", "EasyMission.ServicePattern\EasyMission.ServicePattern.csproj", "{9619659A-6B5B-49CD-87B0-EAFC6EDB7FB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyMission.Presentation", "EasyMission.Presentation\EasyMission.Presentation.csproj", "{C9D055A4-29D2-4D79-8FC7-E7A05FBCF29E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyMission.Presentation", "EasyMission.Presentation\EasyMission.Presentation.csproj", "{02B2A7FF-CCE3-4EBA-88A0-9CE05EBBAA9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{9619659A-6B5B-49CD-87B0-EAFC6EDB7FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9619659A-6B5B-49CD-87B0-EAFC6EDB7FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9619659A-6B5B-49CD-87B0-EAFC6EDB7FB6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C9D055A4-29D2-4D79-8FC7-E7A05FBCF29E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C9D055A4-29D2-4D79-8FC7-E7A05FBCF29E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C9D055A4-29D2-4D79-8FC7-E7A05FBCF29E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C9D055A4-29D2-4D79-8FC7-E7A05FBCF29E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02B2A7FF-CCE3-4EBA-88A0-9CE05EBBAA9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02B2A7FF-CCE3-4EBA-88A0-9CE05EBBAA9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02B2A7FF-CCE3-4EBA-88A0-9CE05EBBAA9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02B2A7FF-CCE3-4EBA-88A0-9CE05EBBAA9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
